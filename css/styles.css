@@ -516,7 +516,56 @@ img {
 .social-link:is(:hover, :focus) {
   background-color: var(--hover-footer-color);
 }
+
 /* ===================/FOOTER============= */
+/* ===================FOOTER-FORM============= */
+
+.form {
+  min-width: 453px;
+  outline: 1px solid tomato;
+}
+.form-field {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+.form-label {
+  margin-bottom: 16px;
+}
+.form-field input {
+  width: 264px;
+  height: 40px;
+  margin: 0;
+  padding: 8px 16px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 4px;
+  background-color: transparent;
+}
+.form-field input::placeholder {
+  color: rgba(255, 255, 255, 0.6);
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 2;
+}
+
+.btn-form {
+  position: absolute;
+  min-width: 165px;
+  letter-spacing: 0.04em;
+  font-size: 16px;
+  line-height: 1.5;
+  color: var(--third-text-color);
+  background-color: var(--secondary-background-color);
+  border: 0;
+  border-radius: 4px;
+  padding-top: 8px;
+  padding-right: 2px;
+  padding-bottom: 8px;
+  bottom: 0;
+  right: 0;
+}
+
+/* ===================/FOOTER_FORM============= */
 
 /* ===================MODAL WINDOW============= */
 .backdrop {
@@ -564,16 +613,3 @@ img {
   border: 1px solid rgba(0, 0, 0, 0.1);
 }
 /* ===================/MODAL WINDOW============= */
-label {
-  display: flex;
-  flex-direction: column;
-  margin-bottom: 8px;
-}
-input {
-  width: 350px;
-  padding: 8px;
-}
-textarea {
-  width: 350px;
-  resize: both;
-}
