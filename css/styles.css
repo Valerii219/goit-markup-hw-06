@@ -522,7 +522,7 @@ img {
 
 .form {
   min-width: 453px;
-  outline: 1px solid tomato;
+  
 }
 .form-field {
   display: flex;
@@ -559,7 +559,7 @@ img {
   border: 0;
   border-radius: 4px;
   padding-top: 8px;
-  padding-right: 2px;
+  padding-right:24px;
   padding-bottom: 8px;
   bottom: 0;
   right: 0;
