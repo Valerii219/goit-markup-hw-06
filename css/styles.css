@@ -564,6 +564,12 @@ img {
   bottom: 0;
   right: 0;
 }
+.icon{
+  width: 20px;
+  height: 20px;
+  background-color: tomato;
+  fill: var(--primery-background-color)
+}
 
 /* ===================/FOOTER_FORM============= */
 
