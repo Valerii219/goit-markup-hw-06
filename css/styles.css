@@ -522,33 +522,46 @@ img {
 
 .form {
   min-width: 453px;
+  outline: 1px solid green;
+  
 }
-.form-field {
-  display: flex;
-  flex-direction: column;
-  position: relative;
-}
-.form-label {
+.social-form{
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--third-text-color);
   margin-bottom: 16px;
 }
+.form-field {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  gap: 24px;
+  outline: 1px solid red;
+  
+      
+}
+
 .form-field input {
-  width: 264px;
-  height: 40px;
-  margin: 0;
-  padding: 8px 16px;
+  min-width: 264px;
   border: 1px solid rgba(255, 255, 255, 0.3);
   border-radius: 4px;
   background-color: transparent;
+  outline: transparent;
+  padding: 0;
 }
 .form-field input::placeholder {
   color: rgba(255, 255, 255, 0.6);
   font-weight: 400;
   font-size: 12px;
   line-height: 2;
+  padding: 8px 16px;
 }
 
 .btn-form {
-  position: absolute;
   min-width: 165px;
   letter-spacing: 0.04em;
   font-size: 16px;
@@ -557,17 +570,14 @@ img {
   background-color: var(--secondary-background-color);
   border: 0;
   border-radius: 4px;
-  padding-top: 8px;
-  padding-right: 24px;
-  padding-bottom: 8px;
-  bottom: 0;
-  right: 0;
-}
+  padding: 8px 24px 8px 24px;
+  
+  }
 .icon {
-  width: 20px;
-  height: 20px;
   background-color: tomato;
   fill: var(--primery-background-color);
+
+  
 }
 
 /* ===================/FOOTER_FORM============= */
