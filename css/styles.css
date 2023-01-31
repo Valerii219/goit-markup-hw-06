@@ -522,7 +522,6 @@ img {
 
 .form {
   min-width: 453px;
-  
 }
 .form-field {
   display: flex;
@@ -559,16 +558,16 @@ img {
   border: 0;
   border-radius: 4px;
   padding-top: 8px;
-  padding-right:24px;
+  padding-right: 24px;
   padding-bottom: 8px;
   bottom: 0;
   right: 0;
 }
-.icon{
+.icon {
   width: 20px;
   height: 20px;
   background-color: tomato;
-  fill: var(--primery-background-color)
+  fill: var(--primery-background-color);
 }
 
 /* ===================/FOOTER_FORM============= */
