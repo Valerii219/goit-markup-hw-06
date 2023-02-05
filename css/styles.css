@@ -555,7 +555,7 @@ input {
   font-weight: 400;
   font-size: 12px;
   line-height: 2;
-  padding: 8px 16px;
+  padding-right: 8px 16px;
 }
 
 .btn-form {
