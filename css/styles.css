@@ -548,7 +548,7 @@ input {
   background-color: transparent;
   outline: transparent;
   padding: 8px 16px;
-  color:var(--third-text-color)
+  color: var(--third-text-color);
 }
 .form-field input::placeholder {
   color: rgba(255, 255, 255, 0.6);
@@ -626,11 +626,11 @@ input {
   padding: 0;
   border: 1px solid rgba(0, 0, 0, 0.1);
 }
-.btn-modal-close:is(:hover, :focus){
+.btn-modal-close:is(:hover, :focus) {
   background-color: var(--accent-color);
 }
-.btn-modal-close:is(:hover, :focus) .icon-close{
-  fill:var(--primery-background-color);
+.btn-modal-close:is(:hover, :focus) .icon-close {
+  fill: var(--primery-background-color);
 }
 
 .modal-title {
@@ -755,7 +755,6 @@ input {
   justify-content: center;
   margin-top: 24px;
 }
-
 
 /* .modal-input:not(:focus):not(:placeholder-shown):valid{
   background-color: green;
