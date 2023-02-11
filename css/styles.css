@@ -462,6 +462,7 @@ input {
 
 /* ===================FOOTER============= */
 .footer {
+  width: 100%;
   background-color: var(--title-text-color);
   padding-top: 100px;
   padding-bottom: 100px;
